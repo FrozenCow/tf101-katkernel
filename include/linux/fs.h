@@ -1429,6 +1429,11 @@ struct super_block {
 	 */
 	char __rcu *s_options;
 	const struct dentry_operations *s_d_op; /* default d_op for dentries */
+
+#ifdef CONFIG_ASYNC_FSYNC
+#define FLAG_ASYNC_FSYNC        0x1
+       unsigned int fsync_flags;
+#endif
 };
 
 extern struct timespec current_fs_time(struct super_block *sb);

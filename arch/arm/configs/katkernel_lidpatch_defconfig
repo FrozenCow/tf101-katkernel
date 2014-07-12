@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/arm 2.6.39.4 Kernel Configuration
-# Mon Jun 16 19:23:51 2014
+# Sat Jul 12 12:14:38 2014
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -1081,7 +1081,6 @@ CONFIG_MPU_SENSORS_PRESSURE_NONE=y
 CONFIG_MPU_SENSORS_TIMERIRQ=y
 # CONFIG_MPU_SENSORS_DEBUG is not set
 # CONFIG_TEGRA_BB_SUPPORT is not set
-CONFIG_FSYNC_CONTROL=y
 CONFIG_HAVE_IDE=y
 # CONFIG_IDE is not set
 
@@ -2988,6 +2987,7 @@ CONFIG_NLS_ISO8859_1=y
 # CONFIG_NLS_KOI8_U is not set
 CONFIG_NLS_UTF8=y
 CONFIG_RESTRICT_ROOTFS_SLAVE=y
+CONFIG_ASYNC_FSYNC=y
 
 #
 # Kernel hacking
